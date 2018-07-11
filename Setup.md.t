@@ -30,9 +30,14 @@ curl http://0.0.0.0:8000/
 ```bash
 d-c stop web
 ```
+
+#### Tear Down
+```bash
+# To Preserve pip install
+pip freeze > requirements.txt
+```
+
 #### Diagnose
 ```bash
 d-r bash
-#pip freeze > requirements.txt
-
 ```
